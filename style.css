@@ -62,22 +62,23 @@ header {
 }
 
 #new-book {
-  height: 100%;
+
   display: flex;
   flex-direction: column;
-  
-  justify-content: space-around;
+  justify-content: space-between;
+  row-gap: 20px;
+  margin: 10px;
 }
 
 div .new-book {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 label {
   color: rgb(90, 90, 90);
   vertical-align: top;
-  font-size: 2em;
+  font: 2em "Fira Sans", sans-serif;
 }
 
 
