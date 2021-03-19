@@ -10,7 +10,6 @@ body {
 }
 
 .wrapper {
-  
   height: 100vh;
   display: grid;
   margin: 0 auto;
@@ -53,6 +52,29 @@ header {
 #shelves > div {
   background-color: rgb(25, 25, 25);
   margin: 5px;
+  display: flex;
+}
+
+#test-book {
+  height: 150px;
+  width: 100px;
+  background-color: maroon;
+  border: 5px solid;
+  border-color: maroon rgb(80, 0, 0);
+  border-top-color: wheat;
+  border-bottom-color: rgb(60, 0, 0);
+  border-radius: 2px;
+  margin: 5px;
+  margin-bottom: 0;
+  align-self: flex-end;
+}
+
+#test-book span {
+  position: relative;
+  font: 1em "Garamond", serif;
+  color: rgb(185, 185, 145);
+  top: 30%;
+  left: 5%;
 }
 
 #new-item {
@@ -62,7 +84,6 @@ header {
 }
 
 #new-book {
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
